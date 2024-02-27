@@ -1,0 +1,40 @@
+body {
+    background-color: #200020;
+    color: lightgray;
+    font-family: monospace, "Courier New";
+    font-size: 1.3rem;
+}
+
+h1, h2, h3, h4 {
+    color: lightgreen;
+}
+
+hr {
+    color: green;
+}
+
+.container {
+    margin: auto;
+    max-width: 1024px;
+}
+
+.copyright {
+    color: grey;
+    float: right;
+    font-style: italic;    
+}
+
+.tagline {
+    color: grey;
+    margin-top: -30px;
+    font-size: 1rem;
+    font-style: italic;    
+}
+
+.timestamp {
+    font-size: 0.8rem;
+    font-style: italic;    
+    margin-bottom: 15px;
+    margin-top: -25px;
+    color: gray;
+}
