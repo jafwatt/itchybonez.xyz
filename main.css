@@ -9,8 +9,14 @@ h1, h2, h3, h4 {
     color: lightgreen;
 }
 
+.post > h1, h2, h3, h4 {
+    font-style: italic;    
+}
+
 hr {
     color: green;
+    background-color: green;
+    height: 2px;
 }
 
 .container {
@@ -24,10 +30,6 @@ hr {
 .copyright {
     color: grey;
     float: right;
-    font-style: italic;    
-}
-
-.posttitle {
     font-style: italic;    
 }
 
