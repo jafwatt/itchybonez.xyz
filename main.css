@@ -47,3 +47,16 @@ hr {
     margin-bottom: 15px;
     margin-top: -25px;
 }
+
+a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: lightgreen underline;
+}
+
+a:visited {
+    color: green;
+}
