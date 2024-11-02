@@ -1,3 +1,16 @@
+a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: lightgreen underline;
+}
+
+a:visited {
+    color: green;
+}
+
 body {
     background-color: gray;
     color: lightgray;
@@ -7,10 +20,6 @@ body {
 
 h1, h2, h3, h4 {
     color: lightgreen;
-}
-
-.post > h1, h2, h3, h4 {
-    font-style: italic;    
 }
 
 hr {
@@ -33,6 +42,10 @@ hr {
     font-style: italic;    
 }
 
+.post > h1, h2, h3, h4 {
+    font-style: italic;    
+}
+
 .tagline {
     color: grey;
     font-size: 1rem;
@@ -46,4 +59,9 @@ hr {
     font-style: italic;    
     margin-bottom: 15px;
     margin-top: -25px;
+}
+
+
+.titlelink {
+    color: lightgreen !important;    
 }
