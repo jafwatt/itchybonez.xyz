@@ -65,3 +65,25 @@ hr {
 .titlelink {
     color: lightgreen !important;    
 }
+
+table {
+    border-spacing: 0px;
+    width: 80%;
+}
+
+th {
+    border-bottom: 2px solid green;
+}
+
+th, td {
+    padding: 4px;
+    text-align: left;
+}
+
+td.left, th.left {
+    text-align: left;
+}
+
+td.center, th.center {
+    text-align: center;
+}
