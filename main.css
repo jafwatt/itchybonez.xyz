@@ -28,6 +28,48 @@ hr {
     height: 2px;
 }
 
+p {
+    text-align: justify;
+}
+
+strong {
+    /* color: green; */
+    color: #d0ff00;
+    font-weight: bold;
+    font-style: italic;
+}
+
+table {
+    border-spacing: 0px;
+    margin-left: 4%;
+    width: 92%;
+}
+
+th {
+    background-color: #5b5b5b3f;
+    border-bottom: 2px solid green;
+    margin-top: 10px;
+    padding: 8px 12px 8px 12px;
+}
+
+td {
+    padding: 4px;
+    text-align: left;
+    padding: 0px 12px 0px 12px;
+}
+
+td.left, th.left {
+    text-align: left;
+}
+
+td.center, th.center {
+    text-align: center;
+}
+
+tr.alt > td {
+    background-color: #5b5b5b3f;
+}
+
 .container {
     background-color: #200020;
     margin: auto;
